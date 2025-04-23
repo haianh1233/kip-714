@@ -185,7 +185,7 @@ kafka:/$ /opt/kafka/bin/kafka-configs.sh --bootstrap-server kafka:9092    --enti
 /opt/kafka/bin/kafka-client-metrics.sh --bootstrap-server broker:9092 --list
 ```
 ```bash
-/opt/kafka/bin/kafka-configs.sh --bootstrap-server kafka:9092 --describe --entity-type client-metrics --entity-name "basic_producer_metrics"
+/opt/kafka/bin/kafka-configs.sh --bootstrap-server broker:9092 --describe --entity-type client-metrics --entity-name "basic_producer_metrics"
 ```
 
 ```terminal
