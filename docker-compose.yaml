@@ -28,3 +28,5 @@ services:
       CLUSTER_ID: 'ZWe3nnZwTrKSM0aM2doAxQ'
       KAFKA_METRIC_REPORTERS: 'io.confluent.cse.KafkaClientTelemetry'
       CLASSPATH: '/tmp/kip-714-1.0-all.jar'
+      KAFKA_METRICS_TOPIC: 'kafka-metrics'
+      KAFKA_BROKER_ADDRESS: 'broker:9092'
