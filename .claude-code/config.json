@@ -1,5 +1,5 @@
 {
   "autoAcceptEdits": true,
   "allowGitCommands": true,
-  "indexOnStart": true
+  "indexOnStart": false
 }
